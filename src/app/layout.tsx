@@ -26,6 +26,20 @@ export const metadata: Metadata = {
     "workflow automation",
     "custom AI",
   ],
+  openGraph: {
+    title: "Nexus AI Labs — We Ship AI That Works",
+    description:
+      "Custom LLM applications, RAG chatbots, AI agents, and workflow automation — shipped by two senior engineers.",
+    type: "website",
+    locale: "en_US",
+    siteName: "Nexus AI Labs",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Nexus AI Labs — We Ship AI That Works",
+    description:
+      "Custom LLM applications, RAG chatbots, AI agents, and workflow automation.",
+  },
 };
 
 export default function RootLayout({
@@ -34,7 +48,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en">
       <body
         className={`${dmSans.variable} ${playfair.variable} antialiased`}
       >

@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { Linkedin, Twitter } from "lucide-react";
 
 const navLinks = [
   { label: "Services", href: "#services" },
@@ -9,9 +9,8 @@ const navLinks = [
 ];
 
 const socialLinks = [
-  { label: "GitHub", href: "#", icon: Github },   // TODO: Add real links
-  { label: "LinkedIn", href: "#", icon: Linkedin }, // TODO: Add real links
-  { label: "Twitter", href: "#", icon: Twitter },   // TODO: Add real links
+  { label: "LinkedIn", href: "#", icon: Linkedin }, // TODO: Add real link
+  { label: "Twitter", href: "#", icon: Twitter },   // TODO: Add real link
 ];
 
 export default function Footer() {
@@ -24,7 +23,7 @@ export default function Footer() {
           <div>
             <a
               href="#"
-              className="flex items-center gap-1 font-display text-xl tracking-tight text-background"
+              className="flex items-center gap-2 font-display text-xl tracking-normal text-background"
             >
               Nexus AI Labs
               <span className="inline-block h-2 w-2 rounded-full bg-accent" />
