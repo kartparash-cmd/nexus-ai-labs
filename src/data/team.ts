@@ -15,7 +15,6 @@ export const team: TeamMember[] = [
     bio: "Senior full-stack developer with deep expertise in React, Next.js, Node.js, and AI integrations. Has shipped 10+ production web applications and AI systems as an independent founder. Specializes in taking AI from idea to deployed product fast.",
     tags: ["React", "Next.js", "Node.js", "OpenAI", "Claude API", "Supabase"],
     links: [
-      { label: "GitHub", href: "#" }, // TODO: Add GitHub link
       { label: "LinkedIn", href: "#" }, // TODO: Add LinkedIn link
       { label: "Upwork", href: "#" }, // TODO: Add Upwork link
     ],
@@ -33,7 +32,6 @@ export const team: TeamMember[] = [
       "AI Integration",
     ],
     links: [
-      { label: "GitHub", href: "#" }, // TODO: Add GitHub link
       { label: "LinkedIn", href: "#" }, // TODO: Add LinkedIn link
     ],
   },

@@ -6,27 +6,27 @@ import { Quote } from "lucide-react";
 const testimonials = [
   {
     quote:
-      "We were skeptical about AI \u2014 every vendor promised the moon. Nexus delivered a customer support chatbot that resolved 60% of our tickets automatically in the first month. No fluff, no delays. They just shipped.",
-    name: "Rajesh Mehta",
-    role: "Head of Operations",
-    company: "TechScale Solutions",
-    initials: "RM",
+      "We needed an autonomous trading system that combined technical signals with alternative data \u2014 congressional trades, options flow, dark pool activity. Nexus built WealthPilot with 10 edge tools, 497 automated tests, and a self-improving strategy engine. The AI earnings fact-checker alone was something no other platform had.",
+    name: "Ashira Capital Partners",
+    role: "Quantitative Finance",
+    company: "WealthPilot",
+    initials: "AC",
   },
   {
     quote:
-      "We went from a napkin sketch to a launched AI product in 3 weeks. What I loved most was talking directly to the engineers building it \u2014 no project managers, no telephone game. Just fast, honest execution.",
-    name: "Sarah Chen",
-    role: "Founder & CEO",
-    company: "DataBridge Analytics",
-    initials: "SC",
+      "We needed to manage 8 social platforms from one place \u2014 scheduling, AI-generated replies in our brand voice, analytics, and a mobile app. Nexus shipped DoppelSocial with 90+ serverless functions, AI voice cloning, and a full content calendar with drag-and-drop. It replaced 8 separate tools.",
+    name: "DoppelSocial",
+    role: "AI SaaS Platform",
+    company: "doppel.so",
+    initials: "DS",
   },
   {
     quote:
-      "Their document analysis tool processes 500+ compliance reports for us every week now. The fact that they integrated it with our legacy systems without any downtime was impressive. These guys know what they\u2019re doing.",
-    name: "Marcus Williams",
-    role: "VP of Engineering",
-    company: "Meridian Health",
-    initials: "MW",
+      "We wanted a free AI toolkit that could drive organic traffic to our main product. Nexus built FreeSocialKit.ai with 10 AI tools, 80+ templates, a developer API, and automated content pipelines. It hit Lighthouse scores of 95/100 and runs in 4 languages as a PWA.",
+    name: "FreeSocialKit.ai",
+    role: "AI Tools Directory",
+    company: "freesocialkit.ai",
+    initials: "FK",
   },
 ];
 

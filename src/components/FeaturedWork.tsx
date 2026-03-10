@@ -61,6 +61,20 @@ export function FeaturedWork() {
                       ))}
                     </div>
 
+                    {/* Metrics */}
+                    {project.metrics && project.metrics.length > 0 && (
+                      <div className="flex flex-wrap gap-3">
+                        {project.metrics.map((m) => (
+                          <span
+                            key={m}
+                            className="text-xs bg-[#6EE7B7]/10 text-[#6EE7B7] px-3 py-1.5 rounded-md"
+                          >
+                            {m}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+
                     <p className="text-accent font-medium">{project.impact}</p>
 
                     <a

@@ -6,6 +6,7 @@ export interface Project {
   solution: string;
   tech: string[];
   impact: string;
+  metrics: string[];
   ctaLabel: string;
   ctaLink: string;
 }
@@ -18,33 +19,47 @@ export const projects: Project[] = [
     problem:
       "Managing social media across 8+ platforms is chaotic and time-consuming for brands.",
     solution:
-      "Built a unified AI-powered social media dashboard with content scheduling, analytics, and AI-generated post suggestions across all major platforms.",
+      "Built a unified AI-powered social media dashboard with content scheduling, AI voice cloning for auto-replies, analytics, carousel builder, and a companion mobile app.",
     tech: [
       "React",
-      "Node.js",
-      "Next.js",
-      "PostgreSQL",
+      "TypeScript",
       "Supabase",
-      "OpenAI API",
-      "Twitter API",
-      "Instagram API",
-      "LinkedIn API",
+      "Gemini AI",
+      "Stripe",
+      "Sentry",
     ],
     impact: "Single dashboard replaces 8 separate tools",
+    metrics: [
+      "8 platform integrations",
+      "90+ serverless edge functions",
+      "AI voice cloning for brand-consistent replies",
+    ],
     ctaLabel: "View Live",
     ctaLink: "https://doppel.so",
   },
   {
     id: "wealthpilot",
     name: "WealthPilot",
-    category: "AI Finance Tool",
+    category: "AI Trading System",
     problem:
-      "Individual investors have no intelligent, personalized tool to track portfolio performance and get AI-driven insights.",
+      "Ashira Capital Partners needed an autonomous trading system that combines technical analysis with alternative data — no existing platform unified all the signals they needed.",
     solution:
-      "Built a full-stack wealth management dashboard with AI-powered analysis, portfolio tracking, and personalized recommendations.",
-    tech: ["Next.js", "TypeScript", "Supabase", "OpenAI", "Tailwind CSS"],
-    impact: "AI-driven portfolio insights for individual investors",
-    ctaLabel: "Case Study",
+      "Built a self-improving paper trading engine with 10 edge tools (congressional trades, options flow, dark pool monitoring, AI earnings fact-checking), Kelly criterion sizing, Monte Carlo risk simulation, and automated strategy evolution.",
+    tech: [
+      "Python",
+      "Alpaca API",
+      "Claude API",
+      "yfinance",
+      "NumPy",
+      "Pandas",
+    ],
+    impact: "Autonomous trading with 10-layer risk management",
+    metrics: [
+      "10 alternative data edge tools",
+      "497 automated tests",
+      "AI earnings fact-checker (first of its kind)",
+    ],
+    ctaLabel: "Private Tool",
     ctaLink: "#work",
   },
   {
@@ -54,9 +69,14 @@ export const projects: Project[] = [
     problem:
       "Home sellers lose 5-6% to agent commissions — no good FSBO alternative existed.",
     solution:
-      "Built a full FSBO platform (Ownerly) that guides sellers through listing, pricing, docs, and negotiation without an agent.",
-    tech: ["Next.js", "Stripe", "PostgreSQL", "AI-powered Pricing"],
+      "Built a full FSBO platform with AI-powered listing generator, automated blog pipeline (2 posts/week via Claude), Stripe premium tier, and state-specific legal guides.",
+    tech: ["Next.js 16", "Supabase", "Stripe", "Claude AI", "Vercel Cron"],
     impact: "Saves sellers thousands in commission fees",
+    metrics: [
+      "AI generates 8 blog posts/month automatically",
+      "Premium tier at $19/mo via Stripe",
+      "50+ state-specific FSBO guides",
+    ],
     ctaLabel: "View Live",
     ctaLink: "https://savethecommission.com",
   },
@@ -67,9 +87,21 @@ export const projects: Project[] = [
     problem:
       "Creators and marketers need AI tools but can't afford expensive subscriptions.",
     solution:
-      "Built a free AI tools directory with 30+ tools, funneling users into the DoppelSocial ecosystem.",
-    tech: ["Next.js", "Supabase", "SEO-optimized", "Custom AI Integrations"],
-    impact: "30+ free AI tools for creators",
+      "Built a free AI tools hub with 10 Claude-powered micro-tools, 80+ templates, 50+ tool directory, PWA support, developer API, and automated content pipeline.",
+    tech: [
+      "Next.js 16",
+      "Claude AI",
+      "Supabase",
+      "MDX",
+      "PWA",
+      "i18n (4 languages)",
+    ],
+    impact: "Free AI toolkit for 10,000+ creators",
+    metrics: [
+      "Lighthouse: 95 Performance / 100 SEO",
+      "10 AI tools, 80+ templates, 49+ prompts",
+      "Developer API with 100 req/day",
+    ],
     ctaLabel: "View Live",
     ctaLink: "https://freesocialkit.ai",
   },
@@ -78,17 +110,23 @@ export const projects: Project[] = [
     name: "Burnify",
     category: "AI Mobile App",
     problem:
-      "Calorie tracking apps are tedious — users abandon them within a week.",
+      "There was no fun, AI-native way to create memes with smart captions and AI-edited images on mobile.",
     solution:
-      "Built an AI-powered mobile app that uses photo recognition and natural language to log food instantly and track burns intelligently.",
+      "Built a React Native app with 3 AI modes — BURN (captions), REIMAGINE (AI image editing), and IGNITE (AI video generation) — powered by Gemini and Veo models, with a tiered subscription system.",
     tech: [
       "React Native",
       "Expo",
-      "OpenAI Vision API",
+      "Gemini AI",
+      "Google Veo",
+      "RevenueCat",
       "Supabase",
-      "Apple App Store",
     ],
-    impact: "Instant food logging via photo recognition",
+    impact: "AI-powered meme creation in 3 modes",
+    metrics: [
+      "3 AI generation modes",
+      "4-tier subscription system via RevenueCat",
+      "Real-time canvas with gesture-based editing",
+    ],
     ctaLabel: "Coming Soon",
     ctaLink: "#work",
   },
