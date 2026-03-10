@@ -61,7 +61,7 @@ export default function Navbar() {
           onClick={openCal}
           className="hidden md:inline-flex btn-glow rounded-md px-6 py-2 text-sm font-medium focus:outline-none focus:ring-2 focus:ring-accent/30 focus:ring-offset-2"
         >
-          Book a Call
+          Book a Free Call
         </button>
 
         {/* Mobile hamburger */}
@@ -105,7 +105,7 @@ export default function Navbar() {
                   }}
                   className="btn-glow mt-2 inline-flex rounded-md px-6 py-2 text-sm font-medium focus:outline-none focus:ring-2 focus:ring-accent/30 focus:ring-offset-2"
                 >
-                  Book a Call
+                  Book a Free Call
                 </button>
               </li>
             </ul>

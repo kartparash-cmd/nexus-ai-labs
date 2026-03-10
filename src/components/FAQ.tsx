@@ -12,11 +12,6 @@ interface FAQItem {
 
 const faqItems: FAQItem[] = [
   {
-    question: "How much does a typical project cost?",
-    answer:
-      "We scope every project individually. Most engagements range from $5K–$50K depending on complexity. We'll give you an honest estimate on our first call — no surprise invoices.",
-  },
-  {
     question: "How fast can you deliver?",
     answer:
       "Most projects ship in 2–4 weeks. We've built complete AI products in as little as 10 days. We'll give you a realistic timeline upfront and hit it.",

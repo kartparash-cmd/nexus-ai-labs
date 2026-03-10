@@ -28,8 +28,6 @@ export function Contact() {
     const email = formData.get("email") as string;
     const company = formData.get("company") as string;
     const message = formData.get("message") as string;
-    const budget = formData.get("budget") as string;
-
     if (!name || !email || !message) {
       setStatus("error");
       setErrorMsg("Please fill in your name, email, and message.");
@@ -41,7 +39,6 @@ export function Contact() {
       email,
       company: company || null,
       message,
-      budget: budget || null,
     });
 
     if (error) {
@@ -123,18 +120,6 @@ export function Contact() {
               />
             </div>
 
-            <div>
-              <select name="budget" className={inputStyles} defaultValue="">
-                <option value="" disabled>
-                  Budget range
-                </option>
-                <option value="<$5k">&lt;$5k</option>
-                <option value="$5k-$15k">$5k-$15k</option>
-                <option value="$15k-$50k">$15k-$50k</option>
-                <option value="$50k+">$50k+</option>
-              </select>
-            </div>
-
             {status === "error" && (
               <p className="text-accent text-sm">{errorMsg}</p>
             )}
@@ -172,7 +157,7 @@ export function Contact() {
               onClick={openCal}
               className="text-foreground font-medium underline underline-offset-2"
             >
-              Book a 30-min call &rarr;
+              Book a Free 30-min Call &rarr;
             </button>
           </p>
         </div>
