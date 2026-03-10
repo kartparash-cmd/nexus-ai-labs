@@ -15,7 +15,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Nexus AI Labs — We Ship AI That Works",
+  title: "Kyro Labs — We Ship AI That Works",
   description:
     "Custom LLM applications, RAG chatbots, AI agents, and workflow automation — delivered by senior engineers who ship fast and maintain what they build.",
   keywords: [
@@ -27,16 +27,16 @@ export const metadata: Metadata = {
     "custom AI",
   ],
   openGraph: {
-    title: "Nexus AI Labs — We Ship AI That Works",
+    title: "Kyro Labs — We Ship AI That Works",
     description:
       "Custom LLM applications, RAG chatbots, AI agents, and workflow automation — shipped by two senior engineers.",
     type: "website",
     locale: "en_US",
-    siteName: "Nexus AI Labs",
+    siteName: "Kyro Labs",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nexus AI Labs — We Ship AI That Works",
+    title: "Kyro Labs — We Ship AI That Works",
     description:
       "Custom LLM applications, RAG chatbots, AI agents, and workflow automation.",
   },

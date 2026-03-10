@@ -25,7 +25,7 @@ export default function Footer() {
               href="#"
               className="flex items-center gap-2 font-display text-xl tracking-normal text-background"
             >
-              Nexus AI Labs
+              Kyro Labs
               <span className="inline-block h-2 w-2 rounded-full bg-accent" />
             </a>
             <p className="text-white/60 text-sm mt-2">We ship AI that works.</p>
@@ -62,7 +62,7 @@ export default function Footer() {
         {/* Bottom row */}
         <div className="mt-8 pt-8 border-t border-white/10 text-center">
           <p className="text-white/40 text-xs">
-            &copy; 2026 Nexus AI Labs. Building AI that ships.
+            &copy; 2026 Kyro Labs. Building AI that ships.
           </p>
         </div>
       </div>

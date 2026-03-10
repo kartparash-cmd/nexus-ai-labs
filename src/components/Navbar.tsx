@@ -38,7 +38,7 @@ export default function Navbar() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2 font-display text-xl tracking-normal text-foreground">
-          Nexus AI Labs
+          Kyro Labs
           <span className="inline-block h-2 w-2 rounded-full bg-accent animate-pulse-cyan" />
         </a>
 
